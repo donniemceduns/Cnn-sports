@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns	= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id			= "com.cnnano.com"
+	version		= "1.0.0">
+
+	<name>CNN Sports For Tablets</name>
+
+	<description>
+	Cnn Sports for Tablets is an unofficial minimalist news app that supplies the latest Sport headlines from cnn
+	</description>
+
+	<author href="http://facebook.com/weatherafrica">
+		Donnie Ibiyemi
+	</author>
+
+	<gap:platforms>
+		<gap:platform name="android" minVersion="2.1" />
+	</gap:platforms>
+
+<preference name="permissions" value="none"/>
+
+<icon src="icon.png" />
+
+ <gap:splash src="splash.png" />
+
+<preference name="load-url-timeout" value="85000" />
+<preference name="fullscreen" value="true" />
+
+<access origin="*" subdomains="true" />
+
+<gap:plugin name="ChildBrowser" />
+
+</widget>
