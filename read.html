@@ -123,14 +123,14 @@ font-family:'fabricaregular';
 <script>
 $('#loi').click(function(){
 var url = document.getElementById('big').title;
-window.plugins.childBrowser.showWebPage('url', { showLocationBar: false });
+window.plugins.childBrowser.showWebPage(url, { showLocationBar: false });
 })
 </script>
 
 <script>
 $('#4').click(function(){
 var url = document.getElementById('big').title;
-window.plugins.childBrowser.openExternal('url');
+window.plugins.childBrowser.openExternal(url);
 })
 </script>
 
